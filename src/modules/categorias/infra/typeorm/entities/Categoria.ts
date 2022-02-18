@@ -15,7 +15,7 @@ export default class categorias {
     id: number;
     
     @Column()
-    descrição: String;
+    descricao: String;
 
     @OneToMany(() => Produto, (produto) => produto.categoria)
     produtos: Produto[];
