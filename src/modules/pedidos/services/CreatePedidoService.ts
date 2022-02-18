@@ -2,7 +2,7 @@ import AppError from "../../../shared/errors/AppErrors";
 import IPedidoDTO from "../../pedidos/dtos/IPedidoDTO";
 import Pedido from "../infra/typeorm/entities/Pedido";
 import PedidoRepository from "../infra/typeorm/repositories/PedidoRepository";
-import Produto from "../../produtos/infra/tpeorm/entities/Produto";
+import Produto from "../../produtos/infra/typeorm/entities/Produto";
 import FindProdutoByIdService from "../../produtos/services/FindProdutoByIdService";
 import FindOrderByIdService from "../../pedidos/services/FindOrderByClientService";
 import FindClientByIdService from "../../clients/services/FindClientByIdService";

@@ -1,6 +1,6 @@
 import { DeleteResult } from "typeorm";
 import IProdutoDTO from "../dtos/IProdutoDTO";
-import Produto from "../infra/tpeorm/entities/Produto";
+import Produto from "../infra/typeorm/entities/Produto";
 
 export default interface IProdutoRepository{
     create(data: IProdutoDTO): Promise<Produto>;

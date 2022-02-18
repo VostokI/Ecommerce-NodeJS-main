@@ -1,4 +1,4 @@
-import Produto from "../../../../produtos/infra/tpeorm/entities/Produto";
+import Produto from "../../../../produtos/infra/typeorm/entities/Produto";
 import {
   Column,
   CreateDateColumn,

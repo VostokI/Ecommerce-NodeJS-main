@@ -6,7 +6,7 @@ import {
     PrimaryGeneratedColumn,
     UpdateDateColumn,
 } from "typeorm";
-import Produto from "../../../../produtos/infra/tpeorm/entities/Produto";
+import Produto from "../../../../produtos/infra/typeorm/entities/Produto";
 
 @Entity("categorias")
 export default class categorias {

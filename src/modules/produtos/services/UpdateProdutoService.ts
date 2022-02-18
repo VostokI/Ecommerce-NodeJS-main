@@ -1,7 +1,7 @@
 import AppError from "../../../shared/errors/AppErrors";
 import IProdutoDTO from "../dtos/IProdutoDTO";
-import Produto from "../infra/tpeorm/entities/Produto";
-import ProdutoRepository from "../infra/tpeorm/repositories/ProdutoRepository";
+import Produto from "../infra/typeorm/entities/Produto";
+import ProdutoRepository from "../infra/typeorm/repositories/ProdutoRepository";
 import FindProdutoByIdService from "./FindProdutoByIdService";
 import FindCategoriaByIdService from "../../categorias/services/FindCategoriaByIdService";
 
