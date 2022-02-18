@@ -20,9 +20,6 @@ export default class Pedido {
   cliente_id: number;
 
   @Column()
-  data: Date;
-
-  @Column()
   status: string;
 
   @Column()
@@ -33,6 +30,9 @@ export default class Pedido {
 
   @Column("float", { scale: 10, precision: 2 })
   desconto: number;
+
+  @Column()
+  data: Date;
 
   
   @ManyToOne(() => Client)
